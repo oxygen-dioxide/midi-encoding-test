@@ -8,7 +8,10 @@ midi文件支持歌词信息。但是，由于没有得到标准化，不同软�
 以下测试结果在Windows 11 简体中文版进行。
 ## 测试结果
 ### midi编辑器
-|编辑器|支持自动判断|支持手动选择|zh-UTF8|zh-GBK|
-|-|-|-|-|-|
-|DeepVocal|×|×|乱码|√|
-|[MuseScore](http://musescore.org/)|×|×|√|乱码|
+|编辑器|支持自动判断|支持手动选择|zh-UTF8|zh-GBK|ja-UTF8|ja-ShiftJIS|
+|-|-|-|-|-|-|-|
+|[ACE Studio](http://ace-studio.timedomain.ai/)|×|×|√|默认歌词|√|默认歌词|
+|DeepVocal|×|×|乱码|√|乱码|乱码|
+|[MuseScore](http://musescore.org/)|×|×|√|乱码|√|乱码|
+|[OpenUTAU](http://www.openutau.com/)|√|×|√|√|√|√|
+|[UTAU](http://utau2008.xrea.jp/)|×|×|乱码|乱码|乱码|√|
