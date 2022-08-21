@@ -194,8 +194,8 @@ expressions:
     is_flag: false
     flag: ''
 tracks:
-- singer: Hanami -CVVChinese- v1.0
-  phonemizer: OpenUtau.Plugin.Builtin.ChineseCVVCPhonemizer
+- singer: Hanami -Blooming Garden- VCV
+  phonemizer: OpenUtau.Plugin.Builtin.JapaneseVCVPhonemizer
   renderer: CLASSIC
   mute: false
   solo: false
@@ -209,7 +209,7 @@ voice_parts:
   - position: 0
     duration: 720
     tone: 60
-    lyric: 明
+    lyric: さ
     pitch:
       data:
       - {x: -80, y: 0, shape: io}
@@ -221,7 +221,7 @@ voice_parts:
   - position: 720
     duration: 240
     tone: 62
-    lyric: 山
+    lyric: か
     pitch:
       data:
       - {x: -80, y: -20, shape: io}
@@ -233,7 +233,7 @@ voice_parts:
   - position: 960
     duration: 480
     tone: 64
-    lyric: 涌
+    lyric: え
     pitch:
       data:
       - {x: -80, y: -20, shape: io}
@@ -245,7 +245,7 @@ voice_parts:
   - position: 1440
     duration: 480
     tone: 62
-    lyric: 水
+    lyric: に
     pitch:
       data:
       - {x: -80, y: 20, shape: io}
@@ -257,7 +257,7 @@ voice_parts:
   - position: 1920
     duration: 480
     tone: 65
-    lyric: 郁
+    lyric: み
     pitch:
       data:
       - {x: -80, y: -30, shape: io}
@@ -269,7 +269,7 @@ voice_parts:
   - position: 2400
     duration: 480
     tone: 64
-    lyric: 郁
+    lyric: ち
     pitch:
       data:
       - {x: -80, y: 10, shape: io}
@@ -281,7 +281,7 @@ voice_parts:
   - position: 2880
     duration: 240
     tone: 62
-    lyric: 葱
+    lyric: た
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -305,7 +305,7 @@ voice_parts:
   - position: 3360
     duration: 480
     tone: 60
-    lyric: 葱
+    lyric: る
     pitch:
       data:
       - {x: -80, y: -10, shape: io}
@@ -317,7 +317,7 @@ voice_parts:
   - position: 3840
     duration: 480
     tone: 69
-    lyric: 钟
+    lyric: か
     pitch:
       data:
       - {x: -80, y: -90, shape: io}
@@ -329,7 +329,7 @@ voice_parts:
   - position: 4320
     duration: 480
     tone: 67
-    lyric: 灵
+    lyric: み
     pitch:
       data:
       - {x: -80, y: 20, shape: io}
@@ -341,7 +341,7 @@ voice_parts:
   - position: 4800
     duration: 480
     tone: 65
-    lyric: 毓
+    lyric: の
     pitch:
       data:
       - {x: -80, y: 20, shape: io}
@@ -353,7 +353,7 @@ voice_parts:
   - position: 5280
     duration: 480
     tone: 64
-    lyric: 秀
+    lyric: み
     pitch:
       data:
       - {x: -80, y: 10, shape: io}
@@ -365,7 +365,7 @@ voice_parts:
   - position: 5760
     duration: 480
     tone: 62
-    lyric: 海
+    lyric: や
     pitch:
       data:
       - {x: -80, y: 20, shape: io}
@@ -377,7 +377,7 @@ voice_parts:
   - position: 6240
     duration: 240
     tone: 64
-    lyric: 天
+    lyric: こ
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -401,7 +401,7 @@ voice_parts:
   - position: 6720
     duration: 480
     tone: 67
-    lyric: 东
+    lyric: わ
     pitch:
       data:
       - {x: -80, y: -70, shape: io}
@@ -413,7 +413,7 @@ voice_parts:
   - position: 7680
     duration: 720
     tone: 60
-    lyric: 济
+    lyric: ち
     pitch:
       data:
       - {x: -80, y: 0, shape: io}
@@ -425,7 +425,7 @@ voice_parts:
   - position: 8400
     duration: 240
     tone: 62
-    lyric: 济
+    lyric: と
     pitch:
       data:
       - {x: -80, y: -20, shape: io}
@@ -437,7 +437,7 @@ voice_parts:
   - position: 8640
     duration: 480
     tone: 64
-    lyric: 多
+    lyric: へ
     pitch:
       data:
       - {x: -80, y: -20, shape: io}
@@ -449,7 +449,7 @@ voice_parts:
   - position: 9120
     duration: 480
     tone: 62
-    lyric: 士
+    lyric: し
     pitch:
       data:
       - {x: -80, y: 20, shape: io}
@@ -461,7 +461,7 @@ voice_parts:
   - position: 9600
     duration: 480
     tone: 65
-    lyric: 四
+    lyric: い
     pitch:
       data:
       - {x: -80, y: -30, shape: io}
@@ -473,7 +473,7 @@ voice_parts:
   - position: 10080
     duration: 480
     tone: 64
-    lyric: 方
+    lyric: わ
     pitch:
       data:
       - {x: -80, y: 10, shape: io}
@@ -485,7 +485,7 @@ voice_parts:
   - position: 10560
     duration: 240
     tone: 62
-    lyric: 所
+    lyric: お
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -509,7 +509,7 @@ voice_parts:
   - position: 11040
     duration: 480
     tone: 60
-    lyric: 崇
+    lyric: の
     pitch:
       data:
       - {x: -80, y: -10, shape: io}
@@ -521,7 +521,7 @@ voice_parts:
   - position: 11520
     duration: 480
     tone: 69
-    lyric: 早
+    lyric: い
     pitch:
       data:
       - {x: -40, y: -90, shape: io}
@@ -533,7 +533,7 @@ voice_parts:
   - position: 12000
     duration: 480
     tone: 67
-    lyric: +
+    lyric: し
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -545,7 +545,7 @@ voice_parts:
   - position: 12480
     duration: 480
     tone: 65
-    lyric: 育
+    lyric: ず
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -557,7 +557,7 @@ voice_parts:
   - position: 12960
     duration: 480
     tone: 64
-    lyric: +
+    lyric: え
     pitch:
       data:
       - {x: -40, y: 10, shape: io}
@@ -569,7 +569,7 @@ voice_parts:
   - position: 13440
     duration: 480
     tone: 62
-    lyric: 文
+    lyric: か
     pitch:
       data:
       - {x: -80, y: 20, shape: io}
@@ -581,7 +581,7 @@ voice_parts:
   - position: 13920
     duration: 240
     tone: 64
-    lyric: 明
+    lyric: た
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -605,7 +605,7 @@ voice_parts:
   - position: 14400
     duration: 480
     tone: 67
-    lyric: 种
+    lyric: く
     pitch:
       data:
       - {x: -80, y: -70, shape: io}
@@ -617,7 +617,7 @@ voice_parts:
   - position: 15360
     duration: 480
     tone: 62
-    lyric: 岛
+    lyric: す
     pitch:
       data:
       - {x: -152.08332824707031, y: -0.22727273404598236, shape: io}
@@ -629,7 +629,7 @@ voice_parts:
   - position: 15840
     duration: 480
     tone: 64
-    lyric: 夷
+    lyric: く
     pitch:
       data:
       - {x: -80, y: -20, shape: io}
@@ -641,7 +641,7 @@ voice_parts:
   - position: 16320
     duration: 240
     tone: 62
-    lyric: 寻
+    lyric: い
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -665,7 +665,7 @@ voice_parts:
   - position: 16800
     duration: 480
     tone: 55
-    lyric: 衅
+    lyric: の
     pitch:
       data:
       - {x: -80, y: 40, shape: io}
@@ -677,7 +677,7 @@ voice_parts:
   - position: 17280
     duration: 480
     tone: 65
-    lyric: 蹂
+    lyric: い
     pitch:
       data:
       - {x: -80, y: -100, shape: io}
@@ -689,7 +689,7 @@ voice_parts:
   - position: 17760
     duration: 480
     tone: 64
-    lyric: 躏
+    lyric: し
     pitch:
       data:
       - {x: -80, y: 10, shape: io}
@@ -701,7 +701,7 @@ voice_parts:
   - position: 18240
     duration: 240
     tone: 62
-    lyric: 乡
+    lyric: が
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -725,7 +725,7 @@ voice_parts:
   - position: 18720
     duration: 480
     tone: 55
-    lyric: 邦
+    lyric: き
     pitch:
       data:
       - {x: -80, y: 40, shape: io}
@@ -737,7 +737,7 @@ voice_parts:
   - position: 19200
     duration: 480
     tone: 67
-    lyric: 满
+    lyric: た
     pitch:
       data:
       - {x: -80, y: -120, shape: io}
@@ -749,7 +749,7 @@ voice_parts:
   - position: 19680
     duration: 480
     tone: 65
-    lyric: 目
+    lyric: か
     pitch:
       data:
       - {x: -80, y: 20, shape: io}
@@ -761,7 +761,7 @@ voice_parts:
   - position: 20160
     duration: 720
     tone: 64
-    lyric: 疮
+    lyric: く
     pitch:
       data:
       - {x: -80, y: 10, shape: io}
@@ -773,7 +773,7 @@ voice_parts:
   - position: 20880
     duration: 240
     tone: 65
-    lyric: 痍
+    lyric: か
     pitch:
       data:
       - {x: -80, y: -10, shape: io}
@@ -785,7 +785,7 @@ voice_parts:
   - position: 21120
     duration: 480
     tone: 65
-    lyric: 遍
+    lyric: こ
     pitch:
       data:
       - {x: -80, y: 0, shape: io}
@@ -797,7 +797,7 @@ voice_parts:
   - position: 21600
     duration: 240
     tone: 65
-    lyric: 地
+    lyric: め
     pitch:
       data:
       - {x: -80, y: 0, shape: io}
@@ -809,7 +809,7 @@ voice_parts:
   - position: 21840
     duration: 240
     tone: 67
-    lyric: 哀
+    lyric: +
     pitch:
       data:
       - {x: -80, y: -20, shape: io}
@@ -821,7 +821,7 @@ voice_parts:
   - position: 22080
     duration: 480
     tone: 67
-    lyric: 鸿
+    lyric: ば
     pitch:
       data:
       - {x: -80, y: 0, shape: io}
@@ -833,7 +833,7 @@ voice_parts:
   - position: 23040
     duration: 720
     tone: 72
-    lyric: 满
+    lyric: み
     pitch:
       data:
       - {x: -181.25, y: 0.30303031206130981, shape: io}
@@ -845,7 +845,7 @@ voice_parts:
   - position: 23760
     duration: 240
     tone: 71
-    lyric: 门
+    lyric: な
     pitch:
       data:
       - {x: -80, y: 10, shape: io}
@@ -857,7 +857,7 @@ voice_parts:
   - position: 24000
     duration: 240
     tone: 71
-    lyric: 桃
+    lyric: み
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -881,7 +881,7 @@ voice_parts:
   - position: 24480
     duration: 480
     tone: 67
-    lyric: 李
+    lyric: の
     pitch:
       data:
       - {x: -80, y: 20, shape: io}
@@ -893,7 +893,7 @@ voice_parts:
   - position: 24960
     duration: 720
     tone: 69
-    lyric: 零
+    lyric: や
     pitch:
       data:
       - {x: -80, y: -20, shape: io}
@@ -905,7 +905,7 @@ voice_parts:
   - position: 25680
     duration: 240
     tone: 67
-    lyric: 落
+    lyric: す
     pitch:
       data:
       - {x: -80, y: 20, shape: io}
@@ -917,7 +917,7 @@ voice_parts:
   - position: 25920
     duration: 240
     tone: 67
-    lyric: 成
+    lyric: き
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -941,7 +941,7 @@ voice_parts:
   - position: 26400
     duration: 480
     tone: 64
-    lyric: 空
+    lyric: お
     pitch:
       data:
       - {x: -80, y: 10, shape: io}
@@ -953,7 +953,7 @@ voice_parts:
   - position: 26880
     duration: 720
     tone: 62
-    lyric: 堪
+    lyric: だ
     pitch:
       data:
       - {x: -80, y: 20, shape: io}
@@ -965,7 +965,7 @@ voice_parts:
   - position: 27600
     duration: 120
     tone: 64
-    lyric: 叹
+    lyric: れ
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -989,7 +989,7 @@ voice_parts:
   - position: 27840
     duration: 240
     tone: 67
-    lyric: 武
+    lyric: か
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -1013,7 +1013,7 @@ voice_parts:
   - position: 28320
     duration: 240
     tone: 65
-    lyric: 城
+    lyric: は
     pitch:
       data:
       - {x: -40, y: 40, shape: io}
@@ -1037,7 +1037,7 @@ voice_parts:
   - position: 28800
     duration: 480
     tone: 60
-    lyric: 辍
+    lyric: み
     pitch:
       data:
       - {x: -80, y: 20, shape: io}
@@ -1049,7 +1049,7 @@ voice_parts:
   - position: 29280
     duration: 240
     tone: 64
-    lyric: 弦
+    lyric: だ
     pitch:
       data:
       - {x: -40, y: -40, shape: io}
@@ -1071,9 +1071,9 @@ voice_parts:
     phoneme_expressions: []
     phoneme_overrides: []
   - position: 29760
-    duration: 480
+    duration: 240
     tone: 60
-    lyric: 诵
+    lyric: さ
     pitch:
       data:
       - {x: -80, y: 20, shape: io}
@@ -1082,10 +1082,22 @@ voice_parts:
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
     phoneme_expressions: []
     phoneme_overrides: []
+  - position: 30000
+    duration: 240
+    tone: 60
+    lyric: ん
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
   - position: 30720
     duration: 720
     tone: 60
-    lyric: 萃
+    lyric: つ
     pitch:
       data:
       - {x: -80, y: 0, shape: io}
@@ -1097,7 +1109,7 @@ voice_parts:
   - position: 31440
     duration: 240
     tone: 62
-    lyric: 英
+    lyric: き
     pitch:
       data:
       - {x: -80, y: -20, shape: io}
@@ -1109,7 +1121,7 @@ voice_parts:
   - position: 31680
     duration: 480
     tone: 64
-    lyric: 才
+    lyric: せ
     pitch:
       data:
       - {x: -80, y: -20, shape: io}
@@ -1121,7 +1133,7 @@ voice_parts:
   - position: 32160
     duration: 480
     tone: 62
-    lyric: 兮
+    lyric: ぬ
     pitch:
       data:
       - {x: -80, y: 20, shape: io}
@@ -1133,7 +1145,7 @@ voice_parts:
   - position: 32640
     duration: 480
     tone: 65
-    lyric: 海
+    lyric: あ
     pitch:
       data:
       - {x: -80, y: -30, shape: io}
@@ -1145,7 +1157,7 @@ voice_parts:
   - position: 33120
     duration: 480
     tone: 64
-    lyric: 隅
+    lyric: い
     pitch:
       data:
       - {x: -80, y: 10, shape: io}
@@ -1157,7 +1169,7 @@ voice_parts:
   - position: 33600
     duration: 240
     tone: 62
-    lyric: 山
+    lyric: よ
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -1181,7 +1193,7 @@ voice_parts:
   - position: 34080
     duration: 480
     tone: 60
-    lyric: 中
+    lyric: り
     pitch:
       data:
       - {x: -80, y: -10, shape: io}
@@ -1193,7 +1205,7 @@ voice_parts:
   - position: 34560
     duration: 480
     tone: 69
-    lyric: 夙
+    lyric: い
     pitch:
       data:
       - {x: -80, y: -90, shape: io}
@@ -1205,7 +1217,7 @@ voice_parts:
   - position: 35040
     duration: 480
     tone: 67
-    lyric: 夜
+    lyric: の
     pitch:
       data:
       - {x: -80, y: 20, shape: io}
@@ -1217,7 +1229,7 @@ voice_parts:
   - position: 35520
     duration: 480
     tone: 65
-    lyric: 匪
+    lyric: ち
     pitch:
       data:
       - {x: -80, y: 20, shape: io}
@@ -1229,7 +1241,7 @@ voice_parts:
   - position: 36000
     duration: 480
     tone: 64
-    lyric: 懈
+    lyric: の
     pitch:
       data:
       - {x: -80, y: 10, shape: io}
@@ -1241,7 +1253,7 @@ voice_parts:
   - position: 36480
     duration: 480
     tone: 62
-    lyric: 学
+    lyric: い
     pitch:
       data:
       - {x: -80, y: 20, shape: io}
@@ -1253,7 +1265,7 @@ voice_parts:
   - position: 36960
     duration: 240
     tone: 64
-    lyric: 业
+    lyric: ず
     pitch:
       data:
       - {x: -80, y: -20, shape: io}
@@ -1265,7 +1277,7 @@ voice_parts:
   - position: 37200
     duration: 240
     tone: 60
-    lyric: 是
+    lyric: +
     pitch:
       data:
       - {x: -80, y: 40, shape: io}
@@ -1277,7 +1289,7 @@ voice_parts:
   - position: 37440
     duration: 480
     tone: 67
-    lyric: 攻
+    lyric: み
     pitch:
       data:
       - {x: -80, y: -70, shape: io}
@@ -1289,7 +1301,7 @@ voice_parts:
   - position: 38400
     duration: 720
     tone: 60
-    lyric: 十
+    lyric: ゆ
     pitch:
       data:
       - {x: -80, y: 0, shape: io}
@@ -1301,7 +1313,7 @@ voice_parts:
   - position: 39120
     duration: 240
     tone: 62
-    lyric: 年
+    lyric: た
     pitch:
       data:
       - {x: -80, y: -20, shape: io}
@@ -1313,7 +1325,7 @@ voice_parts:
   - position: 39360
     duration: 480
     tone: 64
-    lyric: 生
+    lyric: か
     pitch:
       data:
       - {x: -80, y: -20, shape: io}
@@ -1325,7 +1337,7 @@ voice_parts:
   - position: 39840
     duration: 480
     tone: 62
-    lyric: 聚
+    lyric: に
     pitch:
       data:
       - {x: -80, y: 20, shape: io}
@@ -1337,7 +1349,7 @@ voice_parts:
   - position: 40320
     duration: 480
     tone: 65
-    lyric: 十
+    lyric: わ
     pitch:
       data:
       - {x: -80, y: -30, shape: io}
@@ -1349,7 +1361,7 @@ voice_parts:
   - position: 40800
     duration: 480
     tone: 64
-    lyric: 年
+    lyric: き
     pitch:
       data:
       - {x: -80, y: 10, shape: io}
@@ -1361,7 +1373,7 @@ voice_parts:
   - position: 41280
     duration: 240
     tone: 62
-    lyric: 教
+    lyric: い
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -1385,7 +1397,7 @@ voice_parts:
   - position: 41760
     duration: 480
     tone: 60
-    lyric: 训
+    lyric: で
     pitch:
       data:
       - {x: -80, y: -10, shape: io}
@@ -1397,7 +1409,7 @@ voice_parts:
   - position: 42240
     duration: 480
     tone: 69
-    lyric: 于
+    lyric: く
     pitch:
       data:
       - {x: -40, y: -90, shape: io}
@@ -1409,7 +1421,7 @@ voice_parts:
   - position: 42720
     duration: 480
     tone: 67
-    lyric: +
+    lyric: め
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -1421,7 +1433,7 @@ voice_parts:
   - position: 43200
     duration: 480
     tone: 65
-    lyric: 越
+    lyric: ど
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -1433,7 +1445,7 @@ voice_parts:
   - position: 43680
     duration: 480
     tone: 64
-    lyric: +
+    lyric: つ
     pitch:
       data:
       - {x: -40, y: 10, shape: io}
@@ -1445,7 +1457,7 @@ voice_parts:
   - position: 44160
     duration: 480
     tone: 62
-    lyric: 奏
+    lyric: き
     pitch:
       data:
       - {x: -80, y: 20, shape: io}
@@ -1457,7 +1469,7 @@ voice_parts:
   - position: 44640
     duration: 240
     tone: 64
-    lyric: 肤
+    lyric: ね
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -1481,7 +1493,7 @@ voice_parts:
   - position: 45120
     duration: 480
     tone: 67
-    lyric: 功
+    lyric: ば
     pitch:
       data:
       - {x: -80, y: -70, shape: io}
@@ -1493,7 +1505,7 @@ voice_parts:
   - position: 46080
     duration: 480
     tone: 62
-    lyric: 雪
+    lyric: み
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1505,7 +1517,7 @@ voice_parts:
   - position: 46560
     duration: 480
     tone: 64
-    lyric: +
+    lyric: く
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -1517,7 +1529,7 @@ voice_parts:
   - position: 47040
     duration: 240
     tone: 62
-    lyric: 国
+    lyric: に
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -1541,7 +1553,7 @@ voice_parts:
   - position: 47520
     duration: 480
     tone: 55
-    lyric: 耻
+    lyric: の
     pitch:
       data:
       - {x: -80, y: 40, shape: io}
@@ -1553,7 +1565,7 @@ voice_parts:
   - position: 48000
     duration: 480
     tone: 65
-    lyric: 尝
+    lyric: せ
     pitch:
       data:
       - {x: -80, y: -100, shape: io}
@@ -1565,7 +1577,7 @@ voice_parts:
   - position: 48480
     duration: 480
     tone: 64
-    lyric: 胆
+    lyric: い
     pitch:
       data:
       - {x: -80, y: 10, shape: io}
@@ -1577,7 +1589,7 @@ voice_parts:
   - position: 48960
     duration: 240
     tone: 62
-    lyric: 卧
+    lyric: し
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -1601,7 +1613,7 @@ voice_parts:
   - position: 49440
     duration: 480
     tone: 55
-    lyric: 薪
+    lyric: わ
     pitch:
       data:
       - {x: -80, y: 40, shape: io}
@@ -1613,7 +1625,7 @@ voice_parts:
   - position: 49920
     duration: 480
     tone: 67
-    lyric: 誓
+    lyric: か
     pitch:
       data:
       - {x: -80, y: -120, shape: io}
@@ -1625,7 +1637,7 @@ voice_parts:
   - position: 50400
     duration: 480
     tone: 65
-    lyric: 追
+    lyric: わ
     pitch:
       data:
       - {x: -80, y: 20, shape: io}
@@ -1637,7 +1649,7 @@ voice_parts:
   - position: 50880
     duration: 720
     tone: 64
-    lyric: 先
+    lyric: く
     pitch:
       data:
       - {x: -80, y: 10, shape: io}
@@ -1649,7 +1661,7 @@ voice_parts:
   - position: 51600
     duration: 240
     tone: 65
-    lyric: 贤
+    lyric: と
     pitch:
       data:
       - {x: -80, y: -10, shape: io}
@@ -1661,7 +1673,7 @@ voice_parts:
   - position: 51840
     duration: 480
     tone: 65
-    lyric: 之
+    lyric: き
     pitch:
       data:
       - {x: -80, y: 0, shape: io}
@@ -1673,7 +1685,7 @@ voice_parts:
   - position: 52320
     duration: 240
     tone: 65
-    lyric: 芳
+    lyric: な
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1697,7 +1709,7 @@ voice_parts:
   - position: 52800
     duration: 480
     tone: 67
-    lyric: 踪
+    lyric: く
     pitch:
       data:
       - {x: -80, y: 0, shape: io}
@@ -1709,7 +1721,7 @@ voice_parts:
   - position: 53760
     duration: 720
     tone: 72
-    lyric: 待
+    lyric: あ
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1721,7 +1733,7 @@ voice_parts:
   - position: 54480
     duration: 240
     tone: 71
-    lyric: +
+    lyric: ふ
     pitch:
       data:
       - {x: -40, y: 10, shape: io}
@@ -1733,7 +1745,7 @@ voice_parts:
   - position: 54720
     duration: 240
     tone: 71
-    lyric: 学
+    lyric: る
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1757,7 +1769,7 @@ voice_parts:
   - position: 55200
     duration: 480
     tone: 67
-    lyric: 成
+    lyric: る
     pitch:
       data:
       - {x: -80, y: 20, shape: io}
@@ -1769,7 +1781,7 @@ voice_parts:
   - position: 55680
     duration: 720
     tone: 69
-    lyric: 直
+    lyric: め
     pitch:
       data:
       - {x: -80, y: -20, shape: io}
@@ -1781,7 +1793,7 @@ voice_parts:
   - position: 56400
     duration: 240
     tone: 67
-    lyric: 捣
+    lyric: ぐ
     pitch:
       data:
       - {x: -80, y: 20, shape: io}
@@ -1793,7 +1805,7 @@ voice_parts:
   - position: 56640
     duration: 240
     tone: 67
-    lyric: 黄
+    lyric: み
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1817,7 +1829,7 @@ voice_parts:
   - position: 57120
     duration: 480
     tone: 64
-    lyric: 龙
+    lyric: に
     pitch:
       data:
       - {x: -80, y: 10, shape: io}
@@ -1829,7 +1841,7 @@ voice_parts:
   - position: 57600
     duration: 720
     tone: 62
-    lyric: 重
+    lyric: た
     pitch:
       data:
       - {x: -80, y: 20, shape: io}
@@ -1841,7 +1853,7 @@ voice_parts:
   - position: 58320
     duration: 120
     tone: 64
-    lyric: 归
+    lyric: え
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -1865,7 +1877,7 @@ voice_parts:
   - position: 58560
     duration: 240
     tone: 67
-    lyric: 故
+    lyric: ず
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -1889,7 +1901,7 @@ voice_parts:
   - position: 59040
     duration: 240
     tone: 65
-    lyric: 乡
+    lyric: う
     pitch:
       data:
       - {x: -40, y: 40, shape: io}
@@ -1913,7 +1925,7 @@ voice_parts:
   - position: 59520
     duration: 480
     tone: 60
-    lyric: 歌
+    lyric: る
     pitch:
       data:
       - {x: -80, y: 20, shape: io}
@@ -1925,7 +1937,7 @@ voice_parts:
   - position: 60000
     duration: 240
     tone: 64
-    lyric: 大
+    lyric: お
     pitch:
       data:
       - {x: -40, y: -40, shape: io}
@@ -1949,7 +1961,7 @@ voice_parts:
   - position: 60480
     duration: 480
     tone: 60
-    lyric: 凤
+    lyric: +
     pitch:
       data:
       - {x: -80, y: 20, shape: io}

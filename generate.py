@@ -18,3 +18,5 @@ def convert(inputfile:str,outputfile:str,encoding:str):
 
 convert("zh.ustx","zh-UTF8.mid","UTF-8")
 convert("zh.ustx","zh-GBK.mid","GBK")
+convert("ja.ustx","ja-UTF8.mid","UTF-8")
+convert("ja.ustx","ja-ShiftJIS.mid","shiftjis")
