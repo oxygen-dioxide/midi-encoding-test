@@ -1,0 +1,1965 @@
+﻿name: Merged Project
+comment: ''
+output_dir: Vocal
+cache_dir: UCache
+ustx_version: 0.5
+bpm: 120
+beat_per_bar: 4
+beat_unit: 4
+resolution: 480
+expressions:
+  vel:
+    name: velocity
+    abbr: vel
+    type: Numerical
+    min: 0
+    max: 200
+    default_value: 100
+    is_flag: false
+    flag: ''
+  vol:
+    name: volume
+    abbr: vol
+    type: Numerical
+    min: 0
+    max: 200
+    default_value: 100
+    is_flag: false
+    flag: ''
+  atk:
+    name: attack
+    abbr: atk
+    type: Numerical
+    min: 0
+    max: 200
+    default_value: 100
+    is_flag: false
+    flag: ''
+  dec:
+    name: decay
+    abbr: dec
+    type: Numerical
+    min: 0
+    max: 100
+    default_value: 0
+    is_flag: false
+    flag: ''
+  gen:
+    name: gender
+    abbr: gen
+    type: Numerical
+    min: -100
+    max: 100
+    default_value: 0
+    is_flag: true
+    flag: g
+  bre:
+    name: breath
+    abbr: bre
+    type: Numerical
+    min: 0
+    max: 100
+    default_value: 0
+    is_flag: true
+    flag: B
+  lpf:
+    name: lowpass
+    abbr: lpf
+    type: Numerical
+    min: 0
+    max: 100
+    default_value: 0
+    is_flag: true
+    flag: H
+  mod:
+    name: modulation
+    abbr: mod
+    type: Numerical
+    min: 0
+    max: 100
+    default_value: 0
+    is_flag: false
+    flag: ''
+  eng:
+    name: resampler engine
+    abbr: eng
+    type: Options
+    min: 0
+    max: 1
+    default_value: 0
+    is_flag: false
+    options:
+    - ''
+    - resampler.exe
+  e:
+    name: e
+    abbr: e
+    type: Options
+    min: 0
+    max: 2
+    default_value: 0
+    is_flag: true
+    options:
+    - e
+    - ''
+    - Me
+  clr:
+    name: voice color
+    abbr: clr
+    type: Options
+    min: 0
+    max: -1
+    default_value: 0
+    is_flag: false
+    options: []
+  alt:
+    name: alternate
+    abbr: alt
+    type: Numerical
+    min: 0
+    max: 16
+    default_value: 0
+    is_flag: false
+    flag: ''
+  shft:
+    name: tone shift
+    abbr: shft
+    type: Numerical
+    min: -36
+    max: 36
+    default_value: 0
+    is_flag: false
+    flag: ''
+  dyn:
+    name: dynamics
+    abbr: dyn
+    type: Curve
+    min: -240
+    max: 120
+    default_value: 0
+    is_flag: false
+    flag: ''
+  pitd:
+    name: pitch deviation
+    abbr: pitd
+    type: Curve
+    min: -1200
+    max: 1200
+    default_value: 0
+    is_flag: false
+    flag: ''
+  genc:
+    name: gender (curve)
+    abbr: genc
+    type: Curve
+    min: -100
+    max: 100
+    default_value: 0
+    is_flag: false
+    flag: ''
+  brec:
+    name: breathiness (curve)
+    abbr: brec
+    type: Curve
+    min: -100
+    max: 100
+    default_value: 0
+    is_flag: false
+    flag: ''
+  shfc:
+    name: tone shift (curve)
+    abbr: shfc
+    type: Curve
+    min: -1200
+    max: 1200
+    default_value: 0
+    is_flag: false
+    flag: ''
+  tenc:
+    name: tension (curve)
+    abbr: tenc
+    type: Curve
+    min: -100
+    max: 100
+    default_value: 0
+    is_flag: false
+    flag: ''
+  voic:
+    name: voicing (curve)
+    abbr: voic
+    type: Curve
+    min: 0
+    max: 100
+    default_value: 100
+    is_flag: false
+    flag: ''
+tracks:
+- singer: Hanami -CVVChinese- v1.0
+  phonemizer: OpenUtau.Plugin.Builtin.ChineseCVVCPhonemizer
+  renderer: CLASSIC
+  mute: false
+  solo: false
+  volume: -9.6617647058823515
+voice_parts:
+- name: 德国国歌（宁波二中校歌）_合并连音符
+  comment: ''
+  track_no: 0
+  position: 0
+  notes:
+  - position: 0
+    duration: 720
+    tone: 60
+    lyric: 明
+    pitch:
+      data:
+      - {x: -80, y: 0, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: false
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 720
+    duration: 240
+    tone: 62
+    lyric: 山
+    pitch:
+      data:
+      - {x: -80, y: -20, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 960
+    duration: 480
+    tone: 64
+    lyric: 涌
+    pitch:
+      data:
+      - {x: -80, y: -20, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 1440
+    duration: 480
+    tone: 62
+    lyric: 水
+    pitch:
+      data:
+      - {x: -80, y: 20, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 1920
+    duration: 480
+    tone: 65
+    lyric: 郁
+    pitch:
+      data:
+      - {x: -80, y: -30, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 2400
+    duration: 480
+    tone: 64
+    lyric: 郁
+    pitch:
+      data:
+      - {x: -80, y: 10, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 2880
+    duration: 240
+    tone: 62
+    lyric: 葱
+    pitch:
+      data:
+      - {x: -40, y: 20, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 3120
+    duration: 240
+    tone: 59
+    lyric: +
+    pitch:
+      data:
+      - {x: -40, y: 30, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 3360
+    duration: 480
+    tone: 60
+    lyric: 葱
+    pitch:
+      data:
+      - {x: -80, y: -10, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 3840
+    duration: 480
+    tone: 69
+    lyric: 钟
+    pitch:
+      data:
+      - {x: -80, y: -90, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 4320
+    duration: 480
+    tone: 67
+    lyric: 灵
+    pitch:
+      data:
+      - {x: -80, y: 20, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 4800
+    duration: 480
+    tone: 65
+    lyric: 毓
+    pitch:
+      data:
+      - {x: -80, y: 20, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 5280
+    duration: 480
+    tone: 64
+    lyric: 秀
+    pitch:
+      data:
+      - {x: -80, y: 10, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 5760
+    duration: 480
+    tone: 62
+    lyric: 海
+    pitch:
+      data:
+      - {x: -80, y: 20, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 6240
+    duration: 240
+    tone: 64
+    lyric: 天
+    pitch:
+      data:
+      - {x: -40, y: -20, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 6480
+    duration: 240
+    tone: 60
+    lyric: +
+    pitch:
+      data:
+      - {x: -40, y: 40, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 6720
+    duration: 480
+    tone: 67
+    lyric: 东
+    pitch:
+      data:
+      - {x: -80, y: -70, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 7680
+    duration: 720
+    tone: 60
+    lyric: 济
+    pitch:
+      data:
+      - {x: -80, y: 0, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: false
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 8400
+    duration: 240
+    tone: 62
+    lyric: 济
+    pitch:
+      data:
+      - {x: -80, y: -20, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 8640
+    duration: 480
+    tone: 64
+    lyric: 多
+    pitch:
+      data:
+      - {x: -80, y: -20, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 9120
+    duration: 480
+    tone: 62
+    lyric: 士
+    pitch:
+      data:
+      - {x: -80, y: 20, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 9600
+    duration: 480
+    tone: 65
+    lyric: 四
+    pitch:
+      data:
+      - {x: -80, y: -30, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 10080
+    duration: 480
+    tone: 64
+    lyric: 方
+    pitch:
+      data:
+      - {x: -80, y: 10, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 10560
+    duration: 240
+    tone: 62
+    lyric: 所
+    pitch:
+      data:
+      - {x: -40, y: 20, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 10800
+    duration: 240
+    tone: 59
+    lyric: +
+    pitch:
+      data:
+      - {x: -40, y: 30, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 11040
+    duration: 480
+    tone: 60
+    lyric: 崇
+    pitch:
+      data:
+      - {x: -80, y: -10, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 11520
+    duration: 480
+    tone: 69
+    lyric: 早
+    pitch:
+      data:
+      - {x: -40, y: -90, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 12000
+    duration: 480
+    tone: 67
+    lyric: +
+    pitch:
+      data:
+      - {x: -40, y: 20, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 12480
+    duration: 480
+    tone: 65
+    lyric: 育
+    pitch:
+      data:
+      - {x: -40, y: 20, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 12960
+    duration: 480
+    tone: 64
+    lyric: +
+    pitch:
+      data:
+      - {x: -40, y: 10, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 13440
+    duration: 480
+    tone: 62
+    lyric: 文
+    pitch:
+      data:
+      - {x: -80, y: 20, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 13920
+    duration: 240
+    tone: 64
+    lyric: 明
+    pitch:
+      data:
+      - {x: -40, y: -20, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 14160
+    duration: 240
+    tone: 60
+    lyric: +
+    pitch:
+      data:
+      - {x: -40, y: 40, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 14400
+    duration: 480
+    tone: 67
+    lyric: 种
+    pitch:
+      data:
+      - {x: -80, y: -70, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 15360
+    duration: 480
+    tone: 62
+    lyric: 岛
+    pitch:
+      data:
+      - {x: -152.08332824707031, y: -0.22727273404598236, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: false
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 15840
+    duration: 480
+    tone: 64
+    lyric: 夷
+    pitch:
+      data:
+      - {x: -80, y: -20, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 16320
+    duration: 240
+    tone: 62
+    lyric: 寻
+    pitch:
+      data:
+      - {x: -40, y: 20, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 16560
+    duration: 240
+    tone: 59
+    lyric: +
+    pitch:
+      data:
+      - {x: -40, y: 30, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 16800
+    duration: 480
+    tone: 55
+    lyric: 衅
+    pitch:
+      data:
+      - {x: -80, y: 40, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 17280
+    duration: 480
+    tone: 65
+    lyric: 蹂
+    pitch:
+      data:
+      - {x: -80, y: -100, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 17760
+    duration: 480
+    tone: 64
+    lyric: 躏
+    pitch:
+      data:
+      - {x: -80, y: 10, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 18240
+    duration: 240
+    tone: 62
+    lyric: 乡
+    pitch:
+      data:
+      - {x: -40, y: 20, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 18480
+    duration: 240
+    tone: 59
+    lyric: +
+    pitch:
+      data:
+      - {x: -40, y: 30, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 18720
+    duration: 480
+    tone: 55
+    lyric: 邦
+    pitch:
+      data:
+      - {x: -80, y: 40, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 19200
+    duration: 480
+    tone: 67
+    lyric: 满
+    pitch:
+      data:
+      - {x: -80, y: -120, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 19680
+    duration: 480
+    tone: 65
+    lyric: 目
+    pitch:
+      data:
+      - {x: -80, y: 20, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 20160
+    duration: 720
+    tone: 64
+    lyric: 疮
+    pitch:
+      data:
+      - {x: -80, y: 10, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 20880
+    duration: 240
+    tone: 65
+    lyric: 痍
+    pitch:
+      data:
+      - {x: -80, y: -10, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 21120
+    duration: 480
+    tone: 65
+    lyric: 遍
+    pitch:
+      data:
+      - {x: -80, y: 0, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 21600
+    duration: 240
+    tone: 65
+    lyric: 地
+    pitch:
+      data:
+      - {x: -80, y: 0, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 21840
+    duration: 240
+    tone: 67
+    lyric: 哀
+    pitch:
+      data:
+      - {x: -80, y: -20, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 22080
+    duration: 480
+    tone: 67
+    lyric: 鸿
+    pitch:
+      data:
+      - {x: -80, y: 0, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 23040
+    duration: 720
+    tone: 72
+    lyric: 满
+    pitch:
+      data:
+      - {x: -181.25, y: 0.30303031206130981, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: false
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 23760
+    duration: 240
+    tone: 71
+    lyric: 门
+    pitch:
+      data:
+      - {x: -80, y: 10, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 24000
+    duration: 240
+    tone: 71
+    lyric: 桃
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 24240
+    duration: 240
+    tone: 69
+    lyric: +
+    pitch:
+      data:
+      - {x: -40, y: 20, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 24480
+    duration: 480
+    tone: 67
+    lyric: 李
+    pitch:
+      data:
+      - {x: -80, y: 20, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 24960
+    duration: 720
+    tone: 69
+    lyric: 零
+    pitch:
+      data:
+      - {x: -80, y: -20, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 25680
+    duration: 240
+    tone: 67
+    lyric: 落
+    pitch:
+      data:
+      - {x: -80, y: 20, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 25920
+    duration: 240
+    tone: 67
+    lyric: 成
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 26160
+    duration: 240
+    tone: 65
+    lyric: +
+    pitch:
+      data:
+      - {x: -40, y: 20, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 26400
+    duration: 480
+    tone: 64
+    lyric: 空
+    pitch:
+      data:
+      - {x: -80, y: 10, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 26880
+    duration: 720
+    tone: 62
+    lyric: 堪
+    pitch:
+      data:
+      - {x: -80, y: 20, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 27600
+    duration: 120
+    tone: 64
+    lyric: 叹
+    pitch:
+      data:
+      - {x: -40, y: -20, shape: io}
+      - {x: 41.666667938232422, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 27720
+    duration: 120
+    tone: 65
+    lyric: +
+    pitch:
+      data:
+      - {x: -40, y: -10, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 27840
+    duration: 240
+    tone: 67
+    lyric: 武
+    pitch:
+      data:
+      - {x: -40, y: -20, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 28080
+    duration: 240
+    tone: 69
+    lyric: +
+    pitch:
+      data:
+      - {x: -40, y: -20, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 28320
+    duration: 240
+    tone: 65
+    lyric: 城
+    pitch:
+      data:
+      - {x: -40, y: 40, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 28560
+    duration: 240
+    tone: 62
+    lyric: +
+    pitch:
+      data:
+      - {x: -40, y: 30, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 28800
+    duration: 480
+    tone: 60
+    lyric: 辍
+    pitch:
+      data:
+      - {x: -80, y: 20, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 29280
+    duration: 240
+    tone: 64
+    lyric: 弦
+    pitch:
+      data:
+      - {x: -40, y: -40, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 29520
+    duration: 240
+    tone: 62
+    lyric: +
+    pitch:
+      data:
+      - {x: -40, y: 20, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 29760
+    duration: 480
+    tone: 60
+    lyric: 诵
+    pitch:
+      data:
+      - {x: -80, y: 20, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 30720
+    duration: 720
+    tone: 60
+    lyric: 萃
+    pitch:
+      data:
+      - {x: -80, y: 0, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: false
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 31440
+    duration: 240
+    tone: 62
+    lyric: 英
+    pitch:
+      data:
+      - {x: -80, y: -20, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 31680
+    duration: 480
+    tone: 64
+    lyric: 才
+    pitch:
+      data:
+      - {x: -80, y: -20, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 32160
+    duration: 480
+    tone: 62
+    lyric: 兮
+    pitch:
+      data:
+      - {x: -80, y: 20, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 32640
+    duration: 480
+    tone: 65
+    lyric: 海
+    pitch:
+      data:
+      - {x: -80, y: -30, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 33120
+    duration: 480
+    tone: 64
+    lyric: 隅
+    pitch:
+      data:
+      - {x: -80, y: 10, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 33600
+    duration: 240
+    tone: 62
+    lyric: 山
+    pitch:
+      data:
+      - {x: -40, y: 20, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 33840
+    duration: 240
+    tone: 59
+    lyric: +
+    pitch:
+      data:
+      - {x: -40, y: 30, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 34080
+    duration: 480
+    tone: 60
+    lyric: 中
+    pitch:
+      data:
+      - {x: -80, y: -10, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 34560
+    duration: 480
+    tone: 69
+    lyric: 夙
+    pitch:
+      data:
+      - {x: -80, y: -90, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 35040
+    duration: 480
+    tone: 67
+    lyric: 夜
+    pitch:
+      data:
+      - {x: -80, y: 20, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 35520
+    duration: 480
+    tone: 65
+    lyric: 匪
+    pitch:
+      data:
+      - {x: -80, y: 20, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 36000
+    duration: 480
+    tone: 64
+    lyric: 懈
+    pitch:
+      data:
+      - {x: -80, y: 10, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 36480
+    duration: 480
+    tone: 62
+    lyric: 学
+    pitch:
+      data:
+      - {x: -80, y: 20, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 36960
+    duration: 240
+    tone: 64
+    lyric: 业
+    pitch:
+      data:
+      - {x: -80, y: -20, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 37200
+    duration: 240
+    tone: 60
+    lyric: 是
+    pitch:
+      data:
+      - {x: -80, y: 40, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 37440
+    duration: 480
+    tone: 67
+    lyric: 攻
+    pitch:
+      data:
+      - {x: -80, y: -70, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 38400
+    duration: 720
+    tone: 60
+    lyric: 十
+    pitch:
+      data:
+      - {x: -80, y: 0, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: false
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 39120
+    duration: 240
+    tone: 62
+    lyric: 年
+    pitch:
+      data:
+      - {x: -80, y: -20, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 39360
+    duration: 480
+    tone: 64
+    lyric: 生
+    pitch:
+      data:
+      - {x: -80, y: -20, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 39840
+    duration: 480
+    tone: 62
+    lyric: 聚
+    pitch:
+      data:
+      - {x: -80, y: 20, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 40320
+    duration: 480
+    tone: 65
+    lyric: 十
+    pitch:
+      data:
+      - {x: -80, y: -30, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 40800
+    duration: 480
+    tone: 64
+    lyric: 年
+    pitch:
+      data:
+      - {x: -80, y: 10, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 41280
+    duration: 240
+    tone: 62
+    lyric: 教
+    pitch:
+      data:
+      - {x: -40, y: 20, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 41520
+    duration: 240
+    tone: 59
+    lyric: +
+    pitch:
+      data:
+      - {x: -40, y: 30, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 41760
+    duration: 480
+    tone: 60
+    lyric: 训
+    pitch:
+      data:
+      - {x: -80, y: -10, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 42240
+    duration: 480
+    tone: 69
+    lyric: 于
+    pitch:
+      data:
+      - {x: -40, y: -90, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 42720
+    duration: 480
+    tone: 67
+    lyric: +
+    pitch:
+      data:
+      - {x: -40, y: 20, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 43200
+    duration: 480
+    tone: 65
+    lyric: 越
+    pitch:
+      data:
+      - {x: -40, y: 20, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 43680
+    duration: 480
+    tone: 64
+    lyric: +
+    pitch:
+      data:
+      - {x: -40, y: 10, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 44160
+    duration: 480
+    tone: 62
+    lyric: 奏
+    pitch:
+      data:
+      - {x: -80, y: 20, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 44640
+    duration: 240
+    tone: 64
+    lyric: 肤
+    pitch:
+      data:
+      - {x: -40, y: -20, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 44880
+    duration: 240
+    tone: 60
+    lyric: +
+    pitch:
+      data:
+      - {x: -40, y: 40, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 45120
+    duration: 480
+    tone: 67
+    lyric: 功
+    pitch:
+      data:
+      - {x: -80, y: -70, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 46080
+    duration: 480
+    tone: 62
+    lyric: 雪
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 46560
+    duration: 480
+    tone: 64
+    lyric: +
+    pitch:
+      data:
+      - {x: -40, y: -20, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 47040
+    duration: 240
+    tone: 62
+    lyric: 国
+    pitch:
+      data:
+      - {x: -40, y: 20, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 47280
+    duration: 240
+    tone: 59
+    lyric: +
+    pitch:
+      data:
+      - {x: -40, y: 30, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 47520
+    duration: 480
+    tone: 55
+    lyric: 耻
+    pitch:
+      data:
+      - {x: -80, y: 40, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 48000
+    duration: 480
+    tone: 65
+    lyric: 尝
+    pitch:
+      data:
+      - {x: -80, y: -100, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 48480
+    duration: 480
+    tone: 64
+    lyric: 胆
+    pitch:
+      data:
+      - {x: -80, y: 10, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 48960
+    duration: 240
+    tone: 62
+    lyric: 卧
+    pitch:
+      data:
+      - {x: -40, y: 20, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 49200
+    duration: 240
+    tone: 59
+    lyric: +
+    pitch:
+      data:
+      - {x: -40, y: 30, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 49440
+    duration: 480
+    tone: 55
+    lyric: 薪
+    pitch:
+      data:
+      - {x: -80, y: 40, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 49920
+    duration: 480
+    tone: 67
+    lyric: 誓
+    pitch:
+      data:
+      - {x: -80, y: -120, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 50400
+    duration: 480
+    tone: 65
+    lyric: 追
+    pitch:
+      data:
+      - {x: -80, y: 20, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 50880
+    duration: 720
+    tone: 64
+    lyric: 先
+    pitch:
+      data:
+      - {x: -80, y: 10, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 51600
+    duration: 240
+    tone: 65
+    lyric: 贤
+    pitch:
+      data:
+      - {x: -80, y: -10, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 51840
+    duration: 480
+    tone: 65
+    lyric: 之
+    pitch:
+      data:
+      - {x: -80, y: 0, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 52320
+    duration: 240
+    tone: 65
+    lyric: 芳
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 52560
+    duration: 240
+    tone: 67
+    lyric: +
+    pitch:
+      data:
+      - {x: -40, y: -20, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 52800
+    duration: 480
+    tone: 67
+    lyric: 踪
+    pitch:
+      data:
+      - {x: -80, y: 0, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 53760
+    duration: 720
+    tone: 72
+    lyric: 待
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 54480
+    duration: 240
+    tone: 71
+    lyric: +
+    pitch:
+      data:
+      - {x: -40, y: 10, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 54720
+    duration: 240
+    tone: 71
+    lyric: 学
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 54960
+    duration: 240
+    tone: 69
+    lyric: +
+    pitch:
+      data:
+      - {x: -40, y: 20, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 55200
+    duration: 480
+    tone: 67
+    lyric: 成
+    pitch:
+      data:
+      - {x: -80, y: 20, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 55680
+    duration: 720
+    tone: 69
+    lyric: 直
+    pitch:
+      data:
+      - {x: -80, y: -20, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 56400
+    duration: 240
+    tone: 67
+    lyric: 捣
+    pitch:
+      data:
+      - {x: -80, y: 20, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 56640
+    duration: 240
+    tone: 67
+    lyric: 黄
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 56880
+    duration: 240
+    tone: 65
+    lyric: +
+    pitch:
+      data:
+      - {x: -40, y: 20, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 57120
+    duration: 480
+    tone: 64
+    lyric: 龙
+    pitch:
+      data:
+      - {x: -80, y: 10, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 57600
+    duration: 720
+    tone: 62
+    lyric: 重
+    pitch:
+      data:
+      - {x: -80, y: 20, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 58320
+    duration: 120
+    tone: 64
+    lyric: 归
+    pitch:
+      data:
+      - {x: -40, y: -20, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 58440
+    duration: 120
+    tone: 65
+    lyric: +
+    pitch:
+      data:
+      - {x: -32.291667938232422, y: -10, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 58560
+    duration: 240
+    tone: 67
+    lyric: 故
+    pitch:
+      data:
+      - {x: -40, y: -20, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 58800
+    duration: 240
+    tone: 69
+    lyric: +
+    pitch:
+      data:
+      - {x: -40, y: -20, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 59040
+    duration: 240
+    tone: 65
+    lyric: 乡
+    pitch:
+      data:
+      - {x: -40, y: 40, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 59280
+    duration: 240
+    tone: 62
+    lyric: +
+    pitch:
+      data:
+      - {x: -40, y: 30, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 59520
+    duration: 480
+    tone: 60
+    lyric: 歌
+    pitch:
+      data:
+      - {x: -80, y: 20, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 60000
+    duration: 240
+    tone: 64
+    lyric: 大
+    pitch:
+      data:
+      - {x: -40, y: -40, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 60240
+    duration: 240
+    tone: 62
+    lyric: +
+    pitch:
+      data:
+      - {x: -40, y: 20, shape: io}
+      - {x: 25, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 60480
+    duration: 480
+    tone: 60
+    lyric: 凤
+    pitch:
+      data:
+      - {x: -80, y: 20, shape: io}
+      - {x: 0, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  curves:
+  - xs: []
+    ys: []
+    abbr: pitd
+wave_parts: []
