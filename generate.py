@@ -8,7 +8,10 @@ def convert(inputfile:str,outputfile:str,encoding:str):
         miditrack=mido.MidiTrack()
         time=0
         for ustxnote in ustxpart["notes"]:
-            miditrack.append(mido.MetaMessage('lyrics',text=ustxnote["lyric"],time=(int(ustxnote["position"])-time)))#歌词
+            lyric=ustxnote["lyric"]
+            if(lyric.startswith("+")):
+                lyric="-"
+            miditrack.append(mido.MetaMessage('lyrics',text=lyric,time=(int(ustxnote["position"])-time)))#歌词
             miditrack.append(mido.Message('note_on', note=int(ustxnote["tone"]),velocity=64,time=0))
             miditrack.append(mido.Message('note_off',note=int(ustxnote["tone"]),velocity=64,time=int(ustxnote["duration"])))
             time=int(ustxnote["position"])+int(ustxnote["duration"])
@@ -18,5 +21,6 @@ def convert(inputfile:str,outputfile:str,encoding:str):
 
 convert("zh.ustx","zh-UTF8.mid","UTF-8")
 convert("zh.ustx","zh-GBK.mid","GBK")
+convert("zh-hant.ustx","zh-BIG5.mid","BIG5")
 convert("ja.ustx","ja-UTF8.mid","UTF-8")
 convert("ja.ustx","ja-ShiftJIS.mid","shiftjis")
