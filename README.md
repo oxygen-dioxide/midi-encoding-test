@@ -7,12 +7,12 @@ midi文件支持歌词信息。但是，由于没有得到标准化，不同软�
   * 支持导入的midi文本编码
   * 导出的midi文本编码
 
-以下测试结果在Windows 11 简体中文版进行。
+以下测试结果在启用了“使用UTF-8提供全球语言支持”的 Windows 11 简体中文版进行。
 ## 测试结果
 ### midi导入
 |软件|支持自动判断|支持手动选择|zh-UTF8|zh-GBK|zh-BIG5|ja-UTF8|ja-ShiftJIS|
 |-|-|-|-|-|-|-|-|
-|[ACE Studio](http://ace-studio.timedomain.ai/)|×|×|√|默认歌词||√|默认歌词|
+|[ACE Studio](http://ace-studio.timedomain.ai/)|×|×|√|默认歌词|默认歌词|√|默认歌词|
 |DeepVocal|×|×|√|乱码|乱码|√|乱码|
 |[MuseScore](http://musescore.org/)|×|×|√|乱码|乱码|√|乱码|
 |[OpenSVIP](https://openvpi.github.io/home/)|×|×|√|乱码|乱码|√|乱码|
@@ -28,5 +28,6 @@ midi文件支持歌词信息。但是，由于没有得到标准化，不同软�
 |-|-|
 |[OpenSVIP](https://openvpi.github.io/home/)|支持手动选择|
 |[OpenUTAU](http://www.openutau.com/)|UTF-8|
+
 以下编辑器支持导出midi，但不支持导出歌词：
 * [MuseScore](http://musescore.org/)
