@@ -12,21 +12,22 @@ midi文件支持歌词信息。但是，由于没有得到标准化，不同软�
 ### midi导入
 |软件|支持自动判断|支持手动选择|zh-UTF8|zh-GBK|zh-BIG5|ja-UTF8|ja-ShiftJIS|
 |-|-|-|-|-|-|-|-|
-|[ACE Studio](http://ace-studio.timedomain.ai/)|×|×|√|默认歌词|默认歌词|√|默认歌词|
-|DeepVocal|×|×|√|乱码|乱码|√|乱码|
-|[MuseScore](http://musescore.org/)|×|×|√|乱码|乱码|√|乱码|
-|[OpenSVIP](https://openvpi.github.io/home/)|×|×|√|乱码|乱码|√|乱码|
-|[OpenUTAU](http://www.openutau.com/)|√|×|√|√|√|√|√|
-|[QVogen](https://gitee.com/functioner/qvogenclient)|×|×|乱码|√|乱码|乱码|乱码|
-|[UTAU](http://utau2008.xrea.jp/)|×|×|乱码|乱码|乱码|乱码|乱码|
+|[ACE Studio](http://www.acestudio.ai/) 1.3.0|×|×|√|默认歌词|默认歌词|√|默认歌词|
+|DeepVocal 2.1.0|×|×|√|乱码|乱码|√|乱码|
+|[MuseScore](http://musescore.org/) 3.5.2|×|×|√|乱码|乱码|√|乱码|
+|[OpenSVIP](https://openvpi.github.io/home/) 1.4.1<br/>midi插件 0.8.3|×|×|√|乱码|乱码|√|乱码|
+|[OpenUTAU](http://www.openutau.com/) 0.1.2|√|×|√|√|√|√|√|
+|[QVogen](https://gitee.com/functioner/qvogenclient) 0.2.2|×|×|乱码|√|乱码|乱码|乱码|
+|[UTAU](http://utau2008.xrea.jp/) 0.4.18|×|×|乱码|乱码|乱码|乱码|乱码|
 
 以下编辑器支持导入midi，但不支持导入歌词：
-* [X Studio](https://singer.xiaoice.com/)
+* [X Studio](https://singer.xiaoice.com/) 1.8.0
+* AISingers（桌面版） 1.06
 
 ### midi导出
 |软件|编码|
 |-|-|
-|[OpenSVIP](https://openvpi.github.io/home/)|支持手动选择|
+|[OpenSVIP](https://openvpi.github.io/home/)|支持在不同制式的Unicode和本地编码间手动选择|
 |[OpenUTAU](http://www.openutau.com/)|UTF-8|
 
 以下编辑器支持导出midi，但不支持导出歌词：
