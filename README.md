@@ -14,7 +14,7 @@ midi文件支持歌词信息。但是，由于没有得到标准化，不同软�
 |-|-|-|-|-|-|-|-|
 |[ACE Studio](http://www.acestudio.ai/) 1.3.0|×|×|√|默认歌词|默认歌词|√|默认歌词|
 |DeepVocal 2.1.0|×|×|√|乱码|乱码|√|乱码|
-|[MuseScore](http://musescore.org/) 3.5.2|×|×|√|乱码|乱码|√|乱码|
+|[MuseScore](http://musescore.org/) 3.5.2|×|√|√|√|√|√|√|
 |[OpenSVIP](https://openvpi.github.io/home/) 1.4.1<br/>midi插件 0.8.3|×|×|√|乱码|乱码|√|乱码|
 |[OpenUTAU](http://www.openutau.com/) 0.1.2|√|×|√|√|√|√|√|
 |[QVogen](https://gitee.com/functioner/qvogenclient) 0.2.2|×|×|乱码|√|乱码|乱码|乱码|
